@@ -1,0 +1,35 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/65c874e228c7e1adba30dc8d
+
+ 
+
+
+###
+
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+   "name":"vasi",
+   "subscribedToChannel":"V"
+
+
+}
+
+
+###
+
+DELETE http://localhost:3000/subscribers/65c874e228c7e1adba30dc8d
+
+
+
+###
+PATCH GET http://localhost:3000/subscribers/65c874e228c7e1adba30dc8d
+Content-Type: application/json
+{
+   "name":"new name"
+   }
